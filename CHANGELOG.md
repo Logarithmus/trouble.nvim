@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.3.0](https://github.com/folke/trouble.nvim/compare/v3.2.0...v3.3.0) (2024-06-06)
+
+
+### Features
+
+* **lsp:** most lsp sources now support `params.include_current`. Fixes [#482](https://github.com/folke/trouble.nvim/issues/482) ([29d19d4](https://github.com/folke/trouble.nvim/commit/29d19d4f2102306176578f1fe537fbd9740b19e1))
+* **window:** more options for mapping keys ([fdcfc5a](https://github.com/folke/trouble.nvim/commit/fdcfc5a200491e9509e56e04c6b3cdee8ada3153))
+
+
+### Bug Fixes
+
+* **preview:** fixed mouse clicks in the preview main window. Fixes [#484](https://github.com/folke/trouble.nvim/issues/484) ([98d9ed7](https://github.com/folke/trouble.nvim/commit/98d9ed74aec4e82171de3ae0541cdd078558e546))
+* **view:** when calling open when the view is already open, do a refresh. See [#485](https://github.com/folke/trouble.nvim/issues/485) ([39595e8](https://github.com/folke/trouble.nvim/commit/39595e883e2f91456413ca4df287575d31665940))
+
 ## [3.2.0](https://github.com/folke/trouble.nvim/compare/v3.1.0...v3.2.0) (2024-06-06)
 
 
